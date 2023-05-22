@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.42fe22cc.css",
-    "main.js": "/static/js/main.830a2096.js",
+    "main.js": "/static/js/main.b5a01650.js",
     "static/media/ProblemSolving(Basic).png": "/static/media/ProblemSolving(Basic).5ba361e970e472efb4b1.png",
     "static/media/Python(Basic).png": "/static/media/Python(Basic).c87e200bfa3a1910c776.png",
     "static/media/Javascript(Basic).png": "/static/media/Javascript(Basic).7227ff30baea0a3b8672.png",
@@ -11,7 +11,6 @@
     "static/media/Java(Intermediate).png": "/static/media/Java(Intermediate).c3d4b04ea24d678d2048.png",
     "static/media/Java(Basic).png": "/static/media/Java(Basic).139d251bf98efe696d84.png",
     "static/media/ResponsiveWebDesign.png": "/static/media/ResponsiveWebDesign.78f357e405ca7e15c1ee.png",
-    "static/media/c_logo.png": "/static/media/c_logo.bbbbbabc8c191bfb99bf.png",
     "static/media/nodejs.svg": "/static/media/nodejs.543dd86690e645fec32c.svg",
     "static/media/reactjs.svg": "/static/media/reactjs.598d90dd4f36234e376c.svg",
     "static/media/sql.svg": "/static/media/sql.69052411244dc12d5eb1.svg",
@@ -21,14 +20,15 @@
     "static/media/mongodb.svg": "/static/media/mongodb.eb842895e80bd61dd471.svg",
     "static/media/python.svg": "/static/media/python.4298525c028749eb4fa1.svg",
     "static/media/github.svg": "/static/media/github.5531be85d7a8d6f333e5.svg",
+    "static/media/c_logo.svg": "/static/media/c_logo.22ea43c1dab982d3729c.svg",
     "static/media/git.svg": "/static/media/git.8ee81345da1c18b6cdb4.svg",
     "static/media/expressjs.svg": "/static/media/expressjs.076c798a78385ade2dc6.svg",
     "index.html": "/index.html",
     "main.42fe22cc.css.map": "/static/css/main.42fe22cc.css.map",
-    "main.830a2096.js.map": "/static/js/main.830a2096.js.map"
+    "main.b5a01650.js.map": "/static/js/main.b5a01650.js.map"
   },
   "entrypoints": [
     "static/css/main.42fe22cc.css",
-    "static/js/main.830a2096.js"
+    "static/js/main.b5a01650.js"
   ]
 }
