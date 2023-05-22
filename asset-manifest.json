@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.42fe22cc.css",
-    "main.js": "/static/js/main.6eda9725.js",
+    "main.js": "/static/js/main.830a2096.js",
     "static/media/ProblemSolving(Basic).png": "/static/media/ProblemSolving(Basic).5ba361e970e472efb4b1.png",
     "static/media/Python(Basic).png": "/static/media/Python(Basic).c87e200bfa3a1910c776.png",
     "static/media/Javascript(Basic).png": "/static/media/Javascript(Basic).7227ff30baea0a3b8672.png",
@@ -15,6 +15,8 @@
     "static/media/nodejs.svg": "/static/media/nodejs.543dd86690e645fec32c.svg",
     "static/media/reactjs.svg": "/static/media/reactjs.598d90dd4f36234e376c.svg",
     "static/media/sql.svg": "/static/media/sql.69052411244dc12d5eb1.svg",
+    "static/media/reactnative.svg": "/static/media/reactnative.573e83fd52a26acb631f.svg",
+    "static/media/sharepoint.svg": "/static/media/sharepoint.4f1b2393f8b6de0ab8f0.svg",
     "static/media/java.svg": "/static/media/java.3d1f1777f72c1a4ca300.svg",
     "static/media/mongodb.svg": "/static/media/mongodb.eb842895e80bd61dd471.svg",
     "static/media/python.svg": "/static/media/python.4298525c028749eb4fa1.svg",
@@ -23,10 +25,10 @@
     "static/media/expressjs.svg": "/static/media/expressjs.076c798a78385ade2dc6.svg",
     "index.html": "/index.html",
     "main.42fe22cc.css.map": "/static/css/main.42fe22cc.css.map",
-    "main.6eda9725.js.map": "/static/js/main.6eda9725.js.map"
+    "main.830a2096.js.map": "/static/js/main.830a2096.js.map"
   },
   "entrypoints": [
     "static/css/main.42fe22cc.css",
-    "static/js/main.6eda9725.js"
+    "static/js/main.830a2096.js"
   ]
 }
