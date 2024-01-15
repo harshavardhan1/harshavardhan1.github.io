@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.eb7da6f3.css",
-    "main.js": "/static/js/main.26dd5dca.js",
+    "main.css": "/static/css/main.0153c2e1.css",
+    "main.js": "/static/js/main.d2e43386.js",
     "static/media/ProblemSolving(Basic).png": "/static/media/ProblemSolving(Basic).5ba361e970e472efb4b1.png",
     "static/media/Python(Basic).png": "/static/media/Python(Basic).c87e200bfa3a1910c776.png",
     "static/media/Javascript(Basic).png": "/static/media/Javascript(Basic).7227ff30baea0a3b8672.png",
@@ -11,24 +11,27 @@
     "static/media/Java(Intermediate).png": "/static/media/Java(Intermediate).c3d4b04ea24d678d2048.png",
     "static/media/Java(Basic).png": "/static/media/Java(Basic).139d251bf98efe696d84.png",
     "static/media/ResponsiveWebDesign.png": "/static/media/ResponsiveWebDesign.78f357e405ca7e15c1ee.png",
-    "static/media/nodejs.svg": "/static/media/nodejs.543dd86690e645fec32c.svg",
-    "static/media/reactjs.svg": "/static/media/reactjs.598d90dd4f36234e376c.svg",
-    "static/media/sql.svg": "/static/media/sql.69052411244dc12d5eb1.svg",
-    "static/media/reactnative.svg": "/static/media/reactnative.573e83fd52a26acb631f.svg",
-    "static/media/sharepoint.svg": "/static/media/sharepoint.4f1b2393f8b6de0ab8f0.svg",
-    "static/media/java.svg": "/static/media/java.3d1f1777f72c1a4ca300.svg",
-    "static/media/mongodb.svg": "/static/media/mongodb.eb842895e80bd61dd471.svg",
-    "static/media/python.svg": "/static/media/python.4298525c028749eb4fa1.svg",
-    "static/media/github.svg": "/static/media/github.5531be85d7a8d6f333e5.svg",
-    "static/media/c_logo.svg": "/static/media/c_logo.22ea43c1dab982d3729c.svg",
-    "static/media/git.svg": "/static/media/git.8ee81345da1c18b6cdb4.svg",
-    "static/media/expressjs.svg": "/static/media/expressjs.076c798a78385ade2dc6.svg",
+    "static/media/nodejs.svg": "/static/media/nodejs.543dd86690e645fec32c4c62669bf07f.svg",
+    "static/media/reactjs.svg": "/static/media/reactjs.598d90dd4f36234e376cbc6ccd571550.svg",
+    "static/media/reactnative.svg": "/static/media/reactnative.573e83fd52a26acb631ffa45bb4be7fd.svg",
+    "static/media/sharepoint.svg": "/static/media/sharepoint.4f1b2393f8b6de0ab8f07987e81391ff.svg",
+    "static/media/java.svg": "/static/media/java.3d1f1777f72c1a4ca3003a5378491322.svg",
+    "static/media/mongodb.svg": "/static/media/mongodb.eb842895e80bd61dd471f2b70345feab.svg",
+    "static/media/python.svg": "/static/media/python.4298525c028749eb4fa154f8f5bd1931.svg",
+    "static/media/github.svg": "/static/media/github.5531be85d7a8d6f333e5c7136944a022.svg",
+    "static/media/react_hook_form.svg": "/static/media/react_hook_form.51c22a9e8f99850f4d5031a84953fd4b.svg",
+    "static/media/gmail.svg": "/static/media/gmail.29ac350df92c649ab87525a839df486e.svg",
+    "static/media/c_logo.svg": "/static/media/c_logo.22ea43c1dab982d3729c945857896336.svg",
+    "static/media/git.svg": "/static/media/git.8ee81345da1c18b6cdb4bbe93b464810.svg",
+    "static/media/expressjs.svg": "/static/media/expressjs.076c798a78385ade2dc698f1a1d92613.svg",
+    "static/media/materialUi.svg": "/static/media/materialUi.734426c25d85d6f02b49b98d28ef9f03.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.c341cc1c307221b0fe42599c619ceeaf.svg",
     "index.html": "/index.html",
-    "main.eb7da6f3.css.map": "/static/css/main.eb7da6f3.css.map",
-    "main.26dd5dca.js.map": "/static/js/main.26dd5dca.js.map"
+    "main.0153c2e1.css.map": "/static/css/main.0153c2e1.css.map",
+    "main.d2e43386.js.map": "/static/js/main.d2e43386.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb7da6f3.css",
-    "static/js/main.26dd5dca.js"
+    "static/css/main.0153c2e1.css",
+    "static/js/main.d2e43386.js"
   ]
 }
