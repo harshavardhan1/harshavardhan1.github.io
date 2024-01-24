@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0153c2e1.css",
-    "main.js": "/static/js/main.d2e43386.js",
+    "main.js": "/static/js/main.f919c070.js",
     "static/media/ProblemSolving(Basic).png": "/static/media/ProblemSolving(Basic).5ba361e970e472efb4b1.png",
     "static/media/Python(Basic).png": "/static/media/Python(Basic).c87e200bfa3a1910c776.png",
     "static/media/Javascript(Basic).png": "/static/media/Javascript(Basic).7227ff30baea0a3b8672.png",
@@ -21,6 +21,7 @@
     "static/media/github.svg": "/static/media/github.5531be85d7a8d6f333e5c7136944a022.svg",
     "static/media/react_hook_form.svg": "/static/media/react_hook_form.51c22a9e8f99850f4d5031a84953fd4b.svg",
     "static/media/gmail.svg": "/static/media/gmail.29ac350df92c649ab87525a839df486e.svg",
+    "static/media/tailwindcss.svg": "/static/media/tailwindcss.f94972e4845d675a49698c46b404a570.svg",
     "static/media/c_logo.svg": "/static/media/c_logo.22ea43c1dab982d3729c945857896336.svg",
     "static/media/git.svg": "/static/media/git.8ee81345da1c18b6cdb4bbe93b464810.svg",
     "static/media/expressjs.svg": "/static/media/expressjs.076c798a78385ade2dc698f1a1d92613.svg",
@@ -28,10 +29,10 @@
     "static/media/linkedin.svg": "/static/media/linkedin.c341cc1c307221b0fe42599c619ceeaf.svg",
     "index.html": "/index.html",
     "main.0153c2e1.css.map": "/static/css/main.0153c2e1.css.map",
-    "main.d2e43386.js.map": "/static/js/main.d2e43386.js.map"
+    "main.f919c070.js.map": "/static/js/main.f919c070.js.map"
   },
   "entrypoints": [
     "static/css/main.0153c2e1.css",
-    "static/js/main.d2e43386.js"
+    "static/js/main.f919c070.js"
   ]
 }
