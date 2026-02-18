@@ -4,7 +4,7 @@ on:
   push:
     branches: ["main"]
   
-  workflow-dispatch:
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -32,7 +32,7 @@ jobs:
       - name: Upload Zip
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'dist'
+          path: './dist'
   deploy:
     needs: build
     runs-on: ubuntu-latest
@@ -40,7 +40,6 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      deploy:
-        - name: Deploy to GitHub Pages
-          id: deployment
-          uses: actions/deploy-pages@v4
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
