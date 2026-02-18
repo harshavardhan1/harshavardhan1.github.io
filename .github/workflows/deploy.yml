@@ -29,6 +29,17 @@ jobs:
       - name: Build Astro
         run: npm run build
 
+      - name: Lighthouse Audit Report
+        uses: treosh/lighthouse-ci-action@v12
+        with: 
+          collect: {
+            startServerCommand: "npm run preview",
+            url: ['http://localhost:4321'],
+            numberOfRuns: 3
+          }
+          uploadArtifacts: true,
+          temporaryPublicStorage: true
+        
       - name: Upload Zip
         uses: actions/upload-pages-artifact@v3
         with:
