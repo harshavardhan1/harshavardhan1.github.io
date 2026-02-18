@@ -32,11 +32,10 @@ jobs:
       - name: Lighthouse Audit Report
         uses: treosh/lighthouse-ci-action@v12
         with: 
-          collect: {
-            startServerCommand: "npm run preview",
-            url: ['http://localhost:4321'],
+          collect:
+            startServerCommand: "npm run preview"
+            url: ['http://localhost:4321']
             numberOfRuns: 3
-          }
           uploadArtifacts: true
           temporaryPublicStorage: true
         
