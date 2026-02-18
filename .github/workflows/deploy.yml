@@ -28,22 +28,36 @@ jobs:
 
       - name: Build Astro
         run: npm run build
-
-      - name: Lighthouse Audit Report
-        uses: treosh/lighthouse-ci-action@v12
-        with: 
-          collect: |
-            startServerCommand: npm run preview
-            startServerReadyPattern: Local
-            url: http://localhost:4321
-            numberOfRuns: 3
-          uploadArtifacts: true
-          temporaryPublicStorage: true
         
-      - name: Upload Zip
+      - name: Upload Tar
         uses: actions/upload-pages-artifact@v3
         with:
           path: './dist'
+    
+  lighthouse_report:
+    needs: build
+    runs-on: ubuntu-latest 
+    steps:
+      - name: Download Tar
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: './dist'
+
+      - name : Extract Tar
+        run: tar -xf dist/artifact.tar -C dist
+
+      - name: Create Config
+        run: |
+          echo '{"ci": {"collect": {"staticDistDir": "./dist"}}}' > ./lighthouserc.json
+
+      - name: Run Lighthouse
+        uses: treosh/lighthouse-ci-action@v12
+        with:
+          configPath: './lighthouserc.json'
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+
   deploy:
     needs: build
     runs-on: ubuntu-latest
