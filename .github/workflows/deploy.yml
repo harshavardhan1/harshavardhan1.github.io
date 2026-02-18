@@ -37,7 +37,7 @@ jobs:
             url: ['http://localhost:4321'],
             numberOfRuns: 3
           }
-          uploadArtifacts: true,
+          uploadArtifacts: true
           temporaryPublicStorage: true
         
       - name: Upload Zip
