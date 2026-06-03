@@ -21,48 +21,48 @@
 
 ---
 
-## 3. High-Impact Projects (Main Feed)
+## 3. Projects
 
 ### Project 1: High-Performance Self-Ordering Kiosk Web Application
 * **Company:** Ratnam Solutions
 * **Role:** Senior Frontend Developer
 * **Core Stack:** React JS, TanStack Query, Electron JS, Firebase, Framer Motion
-* **The Challenge:** Syncing real-time remote database updates under hardware constraints and bypassing browser sandboxes to interface directly with legacy physical receipt printers.
+* **The Challenge:** Need to convert SSR existing application to SPA and complex state management and an Electron App for printer service.
 * **CTA:** [Read Full Architectural Breakdown →](./projects/kiosk-app.md)
 
 ### Project 2: Data-Intensive Enterprise CRM Application
 * **Company:** Ideas 4 Transformation
 * **Role:** Lead Frontend Engineer
 * **Core Stack:** React JS, TanStack Query, React Hook Form, Material UI
-* **The Challenge:** Mitigating severe interface lagging caused by repetitive network overhead and handling complex role permissions client-side.
+* **The Challenge:** Role Based Access control (RBAC) and because of data heavy nature we have to optimize UI and had to reduce load on backend as well.
 * **CTA:** [Read Full Architectural Breakdown →](./projects/crm-app.md)
 
 ### Project 3: EcoRewards — Incentive-Based Climate Impact Application
 * **Company:** Eliteware Solutions
 * **Role:** Frontend Developer
 * **Core Stack:** React JS, Redux, Material UI, Gatsby
-* **The Challenge:** Securing high-risk financial transactional interfaces across multi-step verification workflows.
+* **The Challenge:** SEO is required for their home page and had user login as well so we have to setup a strategy to cut cost for SSR.
 * **CTA:** [Read Full Architectural Breakdown →](./projects/ecorewards-app.md)
 
 ### Project 4: Smart EV Charging Station Management Platform
 * **Company:** Eliteware Solutions
 * **Role:** Frontend Developer
 * **Core Stack:** React JS, Redux, i18next, Gatsby
-* **The Challenge:** Rebuilding low-performance analytics charts and establishing a cloneable, multi-tenant template layout for rapid brand-switching sprints.
+* **The Challenge:** We made this project in modular way to support multipe clients.
 * **CTA:** [Read Full Architectural Breakdown →](./projects/ev-charging-platform.md)
 
 ### Project 5: Enterprise Compliance Evaluation & Audit System
 * **Company:** LTIMindtree
 * **Role:** Software Developer
 * **Core Stack:** SharePoint (SPFX), React JS, Redux, REST APIs
-* **The Challenge:** Orchestrating complex conditional entry states across four separate user personas (Auditee, Auditor, Delegate, Admin) alongside heavy data validations.
+* **The Challenge:** Restricting operations based on Custom Roles is the challenge especially Delegate Role.
 * **CTA:** [Read Full Architectural Breakdown →](./projects/compliance-system.md)
 
 ### Project 6: Legacy Interface Modernization Sprint
 * **Company:** LTIMindtree
 * **Role:** Associate Software Developer
 * **Tech Stack:** SharePoint (SPFX), React JS, CSS3, REST APIs
-* **The Challenge:** Deploying comprehensive user interface overhauls and responsive layouts within tight, aggressive production sprint windows.
+* **The Challenge:** Had to enhance the UI for exisitng legacy application.
 * **CTA:** [Read Full Architectural Breakdown →](./projects/modernization-sprint.md)
 
 ---
