@@ -2,11 +2,13 @@
 
 
 ## Core Technical Architecture
-* **Frontend Engine:** React JS (Modular Presentation Components)
+* **Frontend:** React JS
 * **Data Fetching & State:** TanStack Query, React Hook Form (RHF)
 * **Native Integration Layer:** Electron JS
-* **Design & Motion:** Shadcn UI, Tailwind CSS, Framer Motion (GPU Accelerated)
-* **Real-time Pipeline:** Firebase Cloud Messaging, i18next, Storybook
+* **Design & Motion:** Shadcn, Tailwind CSS, Framer Motion
+* **Docs:** Storybook
+* **Localization:** i18next
+* **Real-time sync:** Firebase Cloud Messaging 
 
 ## Feature Deep-Dive & Key Deliverables
 
